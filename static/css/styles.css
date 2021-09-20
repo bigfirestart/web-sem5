@@ -40,6 +40,9 @@ button, input[type="submit"], input[type="reset"] {
 .pr-20 {
     flex: 0 0 20%;
 }
+.pr-25 {
+    flex: 0 0 25%;
+}
 .pr-30 {
     flex: 0 0 30%;
 }
@@ -182,4 +185,20 @@ footer {
     margin-left: 7px;
     color: black;
     font-weight: normal;
+}
+.footer-title {
+    color: #d4f08f;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-links {
+    font-size: 18px;
+}
+.footer-links div{
+    margin-top: 10px;
+}
+
+.footer-links .footer-link-text {
+    margin-left: 20px;
+    display: inline;
 }
