@@ -6,6 +6,8 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="static/css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -100,7 +102,7 @@
             </div>
         </div>
         <div class="pr-5 justify-center-all">
-            <button id="contact-redirect-btn" class="contact-btn">
+            <button id="contact-redirect-btn" class="contact-btn animate__animated">
                 Contact me
                 <i class="fas fa-arrow-down"></i>
             </button>
@@ -144,5 +146,26 @@
     </footer>
     <div id="page-end"></div>
 </body>
+
+<!-- Modal -->
+
+<div id="modalGithub" hidden>
+    <div class="pr-30"></div>
+    <div class="pr-50 row">
+        <div class="pr-20"></div>
+        <div class="row pr-60">
+            <img class="modal-img" src="static/MarkProfile.png" alt="">
+            <div class="pr-5"></div>
+            <div class="plus-big">+</div>
+            <div class="pr-5"></div>
+            <img class="modal-img" src="static/GithubLogo.png" alt="">
+        </div>
+        <div class="pr-20"></div>
+    </div>
+    <button onclick="window.location.href = 'https://github.com/bigfirestart' ">See all my works in github !</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.2/dist/jBox.all.min.js"></script>
 <script src="static/js/main.js"></script>
 </html>
