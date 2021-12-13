@@ -222,7 +222,7 @@ footer {
 }
 
 .jBox-content {
-
+    margin-top: 50px;
 }
 
 .modal-img {
@@ -235,5 +235,11 @@ footer {
 }
 
 .modal-btn {
-
+    margin-top: 50px;
+    align-self: center;
+    background-color: #423bcc;
+    font-size: 23px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px ;
 }
