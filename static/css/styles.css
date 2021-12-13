@@ -17,6 +17,17 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	outline: inherit;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block: 0;
+  font-weight: normal;
+  margin-inline: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
 .row {
     display: flex;;
     flex-direction: row;
@@ -200,6 +211,7 @@ footer {
 
 .footer-links .footer-link-text {
     margin-left: 20px;
+    margin-top: -5px;
     display: inline;
 }
 
