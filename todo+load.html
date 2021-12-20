@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo + Load</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </script>
+</head>
+
+<body>
+<div>
+    <h1>ToDo List</h1>
+
+    <form class="main__todo-form">
+        <input class="main__todo-input" type="text" placeholder="Add a Todo...">
+        <button class="main__add-button" type="submit">+</button>
+    </form>
+
+    <ul class="main__todo-items"></ul>
+
+    <div>
+        <button onclick="location.href='index.html'" type="button">
+            To Main Page
+        </button>
+    </div>
+</div>
+<div>
+    <h1>Mock gallery</h1>
+    <div class="main__gallery"></div>
+    <div class="main__loader">
+        <img src="static/loader.gif"/>
+    </div>
+    <button class="main__more">Get more!</button>
+    <i style="font-size:3vh" class="fa">&#xf071;Error!</i>
+</div>
+<script src="static/js/todo.js"></script>
+<script src="static/js/gallery.js"></script>
+</body>
+</html>
